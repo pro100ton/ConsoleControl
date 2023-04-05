@@ -19,6 +19,7 @@
 		7DCE490C29DE021400A38EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DCE490E29DE021500A38EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCE491129DE021500A38EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DCE491829DE0A5C00A38EC9 /* JWTPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JWTPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			children = (
 				7DCE490A29DE021400A38EC9 /* ConsoleControlApp.swift */,
 				7DCE490C29DE021400A38EC9 /* ContentView.swift */,
+				7DCE491829DE0A5C00A38EC9 /* JWTPlayground.playground */,
 				7DCE490E29DE021500A38EC9 /* Assets.xcassets */,
 				7DCE491029DE021500A38EC9 /* Preview Content */,
 			);
