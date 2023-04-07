@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Matvey G. Grishov",
+        "login": "mgrishov@t1-consulting.ru",
+        "credentials": "Гришов Матвей Григорьевич",
+        "phone": "+79851183332",
+        "email": "mgrishov@t1-consulting.ru"
+    },
+    {
+        "name": "Veronika B. Batrakova",
+        "login": "vbatrakova@t1-consulting.ru",
+        "credentials": "Батракова Вероника Борисовна",
+        "phone": "+79511085038 B18",
+        "email": "vbatrakova@t1-consulting.ru"
+    },
+    {
+        "name": "Natanich",
+        "login": "aosshalimov@t1-consulting.ru",
+        "credentials": "Anton Shalimov Olegovich",
+        "phone": "+79851182132",
+        "email": "aosshalimov@t1-consulting.ru"
+    },
+    {
+        "name": "Vasya",
+        "login": "vasya@vasya.ru",
+        "credentials": "Вася Василий Васильевич",
+        "phone": "+79998887766",
+        "email": "vasya@vasya.ru"
+    },
+    
+]
