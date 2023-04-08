@@ -6,12 +6,11 @@
 //
 
 import Foundation
+import Combine
 
-//final class UsersModelData: ObservableObject {
-//    @Published var users: [User] = load("usersData.json")
-//}
-
-var users: [User] = load("usersData.json")
+final class UsersModelData: ObservableObject {
+    @Published var users: [User] = load("usersData")
+}
 
 func load<T: Decodable>(_ filename: String) -> T {
     /// Объявляем контсанту, в которой будет храниться содержимое файла
@@ -19,7 +18,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     
     /// Пытаемся получить URL файла с заданным именем из `main bundle`.
     /// Если файл не найден, выводим сообщение что не можем найти этот файл
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+    guard let file = Bundle.main.url(forResource: filename, withExtension: "json")
     else {
         fatalError("Could not find \(filename) in main bundle")
     }

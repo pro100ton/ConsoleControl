@@ -10,10 +10,10 @@ import CoreLocation
 import SwiftUI
 
 struct User: Hashable, Codable, Identifiable {
-    let id = UUID()
     let name: String
     let login: String
     let credentials: String
     let phone: String
     let email: String
+    var id: String { name }
 }
