@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct UsersListView: View {
+    @EnvironmentObject var domainServerModelData: DomainServersModelData
     @EnvironmentObject var usersModelData: UsersModelData
     
     @State private var users = [User]()
@@ -20,7 +21,7 @@ struct UsersListView: View {
                 showModal = true
             }
             .sheet(isPresented: $showModal) {
-                UsersModalView()
+                UsersModalView(domainServers: domainServerModelData.domainServers)
             }
             List{
                 ForEach(usersModelData.users) { user in
@@ -34,5 +35,6 @@ struct UsersListView_Previews: PreviewProvider {
     static var previews: some View {
         UsersListView()
             .environmentObject(UsersModelData())
+            .environmentObject(DomainServersModelData())
     }
 }

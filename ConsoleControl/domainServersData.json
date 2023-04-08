@@ -1,0 +1,26 @@
+[
+    {
+        "id": 6,
+        "type": "ALD",
+        "domain_name": "1.1.1.1",
+        "domain_user": "admin",
+        "server_name": "ALD server",
+        "description": "",
+        "is_auth_available": true,
+        "created_at": "2023-04-06T15:30:46.851071Z",
+        "updated_at": "2023-04-06T15:39:42.154824Z",
+        "online": false
+    },
+    {
+        "id": 1,
+        "type": "AD",
+        "domain_name": "TSC.TS",
+        "domain_user": "ashalimov@t1-consulting.ru",
+        "server_name": "TSC",
+        "description": "",
+        "is_auth_available": true,
+        "created_at": "2023-04-03T12:12:52.840223Z",
+        "updated_at": "2023-04-06T15:37:28.881386Z",
+        "online": true
+    }
+]

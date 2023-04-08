@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ConsoleControlApp: App {
+    @StateObject private var usersModelData = UsersModelData()
+    @StateObject private var domainServersModelData = DomainServersModelData()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersListView()
+                .environmentObject(usersModelData)
+                .environmentObject(domainServersModelData)
         }
     }
 }

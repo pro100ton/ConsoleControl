@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		7D1B829529E15907004AAD62 /* TestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B829429E15907004AAD62 /* TestsView.swift */; };
 		7D1B829A29E163C4004AAD62 /* UsersModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1B829929E163C4004AAD62 /* UsersModalView.swift */; };
-		7D42027729E095E400827B11 /* usersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D42027629E095E400827B11 /* usersData.json */; };
 		7D42027B29E096A700827B11 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D42027A29E096A700827B11 /* Users.swift */; };
 		7D42027D29E0979300827B11 /* UsersModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D42027C29E0979300827B11 /* UsersModelData.swift */; };
 		7D42027F29E0984000827B11 /* UsersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D42027E29E0984000827B11 /* UsersListView.swift */; };
 		7D42028129E09A6300827B11 /* UsersListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D42028029E09A6300827B11 /* UsersListRow.swift */; };
+		7D71C4A729E19B3900453E18 /* DomainServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71C4A629E19B3900453E18 /* DomainServer.swift */; };
+		7D71C4A929E19B8300453E18 /* domainServersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D71C4A829E19B8300453E18 /* domainServersData.json */; };
+		7D71C4AB29E19CEE00453E18 /* DomainServerModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71C4AA29E19CEE00453E18 /* DomainServerModelData.swift */; };
+		7D71C4AE29E19D7500453E18 /* DomainServersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71C4AD29E19D7500453E18 /* DomainServersListView.swift */; };
+		7D71C4B029E1A47900453E18 /* usersData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D71C4AF29E1A47900453E18 /* usersData.json */; };
 		7DCE490B29DE021400A38EC9 /* ConsoleControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE490A29DE021400A38EC9 /* ConsoleControlApp.swift */; };
 		7DCE490D29DE021400A38EC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCE490C29DE021400A38EC9 /* ContentView.swift */; };
 		7DCE490F29DE021500A38EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCE490E29DE021500A38EC9 /* Assets.xcassets */; };
@@ -24,17 +28,20 @@
 /* Begin PBXFileReference section */
 		7D1B829429E15907004AAD62 /* TestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsView.swift; sourceTree = "<group>"; };
 		7D1B829929E163C4004AAD62 /* UsersModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModalView.swift; sourceTree = "<group>"; };
-		7D42027629E095E400827B11 /* usersData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = usersData.json; sourceTree = "<group>"; };
 		7D42027A29E096A700827B11 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		7D42027C29E0979300827B11 /* UsersModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModelData.swift; sourceTree = "<group>"; };
 		7D42027E29E0984000827B11 /* UsersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListView.swift; sourceTree = "<group>"; };
 		7D42028029E09A6300827B11 /* UsersListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListRow.swift; sourceTree = "<group>"; };
+		7D71C4A629E19B3900453E18 /* DomainServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainServer.swift; sourceTree = "<group>"; };
+		7D71C4A829E19B8300453E18 /* domainServersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = domainServersData.json; sourceTree = "<group>"; };
+		7D71C4AA29E19CEE00453E18 /* DomainServerModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainServerModelData.swift; sourceTree = "<group>"; };
+		7D71C4AD29E19D7500453E18 /* DomainServersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainServersListView.swift; sourceTree = "<group>"; };
+		7D71C4AF29E1A47900453E18 /* usersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usersData.json; sourceTree = "<group>"; };
 		7DCE490729DE021400A38EC9 /* ConsoleControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsoleControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCE490A29DE021400A38EC9 /* ConsoleControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleControlApp.swift; sourceTree = "<group>"; };
 		7DCE490C29DE021400A38EC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DCE490E29DE021500A38EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCE491129DE021500A38EC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7DCE491829DE0A5C00A38EC9 /* JWTPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JWTPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7DCE5ACE29E0A65500459971 /* UsersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +70,7 @@
 		7D1B829729E15C95004AAD62 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7D71C4A529E19B2B00453E18 /* DomainServers */,
 				7D1B829829E15C9E004AAD62 /* Users */,
 			);
 			path = Models;
@@ -80,11 +88,29 @@
 		7D42027529E0948000827B11 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7D71C4AC29E19D5F00453E18 /* DomainServers */,
 				7D1B829629E15C10004AAD62 /* Users */,
 				7DCE490C29DE021400A38EC9 /* ContentView.swift */,
 				7D1B829429E15907004AAD62 /* TestsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7D71C4A529E19B2B00453E18 /* DomainServers */ = {
+			isa = PBXGroup;
+			children = (
+				7D71C4A629E19B3900453E18 /* DomainServer.swift */,
+				7D71C4AA29E19CEE00453E18 /* DomainServerModelData.swift */,
+			);
+			path = DomainServers;
+			sourceTree = "<group>";
+		};
+		7D71C4AC29E19D5F00453E18 /* DomainServers */ = {
+			isa = PBXGroup;
+			children = (
+				7D71C4AD29E19D7500453E18 /* DomainServersListView.swift */,
+			);
+			path = DomainServers;
 			sourceTree = "<group>";
 		};
 		7DCE48FE29DE021400A38EC9 = {
@@ -106,10 +132,10 @@
 		7DCE490929DE021400A38EC9 /* ConsoleControl */ = {
 			isa = PBXGroup;
 			children = (
-				7D42027629E095E400827B11 /* usersData.json */,
+				7D71C4A829E19B8300453E18 /* domainServersData.json */,
+				7D71C4AF29E1A47900453E18 /* usersData.json */,
 				7DCE490A29DE021400A38EC9 /* ConsoleControlApp.swift */,
 				7D42027529E0948000827B11 /* Views */,
-				7DCE491829DE0A5C00A38EC9 /* JWTPlayground.playground */,
 				7DCE490E29DE021500A38EC9 /* Assets.xcassets */,
 				7DCE491029DE021500A38EC9 /* Preview Content */,
 				7D1B829729E15C95004AAD62 /* Models */,
@@ -183,8 +209,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D42027729E095E400827B11 /* usersData.json in Resources */,
 				7DCE491229DE021500A38EC9 /* Preview Assets.xcassets in Resources */,
+				7D71C4A929E19B8300453E18 /* domainServersData.json in Resources */,
+				7D71C4B029E1A47900453E18 /* usersData.json in Resources */,
 				7DCE490F29DE021500A38EC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D71C4A729E19B3900453E18 /* DomainServer.swift in Sources */,
 				7D1B829A29E163C4004AAD62 /* UsersModalView.swift in Sources */,
 				7D1B829529E15907004AAD62 /* TestsView.swift in Sources */,
+				7D71C4AE29E19D7500453E18 /* DomainServersListView.swift in Sources */,
 				7D42027B29E096A700827B11 /* Users.swift in Sources */,
 				7DCE490D29DE021400A38EC9 /* ContentView.swift in Sources */,
 				7D42027F29E0984000827B11 /* UsersListView.swift in Sources */,
@@ -205,6 +234,7 @@
 				7D42028129E09A6300827B11 /* UsersListRow.swift in Sources */,
 				7D42027D29E0979300827B11 /* UsersModelData.swift in Sources */,
 				7DCE490B29DE021400A38EC9 /* ConsoleControlApp.swift in Sources */,
+				7D71C4AB29E19CEE00453E18 /* DomainServerModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
